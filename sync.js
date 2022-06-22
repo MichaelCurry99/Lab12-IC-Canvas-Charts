@@ -98,14 +98,21 @@ function timesClickedHandler(card){
   console.log(randomNumberOne)
 
 for(let i = 0;i< cardNames.length;i++){
+    let rando = makeRandom();
     let cardName = cardNames[i]
+    
+    if(cardName[rando]===cardName)(
+        cardName = makeRandom()
+    
+    )
+
     console.log(cardName)
 
 }
 
-cardOneContainer
-cardTwoContainer
-cardThreeContainer
+// cardOneContainer
+// cardTwoContainer
+// cardThreeContainer
 
 
 

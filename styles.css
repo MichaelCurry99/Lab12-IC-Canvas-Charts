@@ -1,0 +1,39 @@
+
+
+
+
+html{
+    margin:0;
+    padding:0;
+}
+
+canvas { border: 4px solid black; }
+
+
+.main{
+    display:grid;
+    font-size:30px;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+    margin-top:10%;
+    row-gap:20px;
+    column-gap: 10px;
+    text-align: center;
+   
+}
+
+
+.card-one{
+background-color:green;
+
+}
+
+.card-two{
+background-color:yellow;
+}
+
+.card-three{
+background-color:red;
+}
+
